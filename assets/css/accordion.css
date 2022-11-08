@@ -1,0 +1,34 @@
+.card-header-accordion,
+.card-accordion {
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  background-color: #fff !important;
+}
+
+.card-body-accordion {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+}
+
+.accordion {
+  padding: 1.5rem 0px;
+  border: none !important;
+  border-top: 1px solid #eee;
+}
+
+.btn-accordion {
+  text-transform: none;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  outline: none;
+  padding: 0px;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: #000;
+}

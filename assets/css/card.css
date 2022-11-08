@@ -1,0 +1,63 @@
+.subtitle-card {
+  color: #808080;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.text-muted {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.value-card-iptu {
+  font-weight: 600;
+}
+
+.card-type {
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.footer-card {
+  margin-top: 24px;
+}
+
+.itens-card {
+  font-size: 13px;
+  color: #808080;
+  font-weight: 500;
+}
+
+.fav-icon-card {
+  float: right !important;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mg-45 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+}
+
+.filter-card {
+  font-size: 14px;
+  float: right;
+  margin-top: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
